@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+#center_main dl {
+	width:500px;
+	margin:15px auto;
+	font-size:14px;
+}
+#center_main dl dd {
+	padding:10px 0;
+	border-bottom:1px dashed #999;
+}

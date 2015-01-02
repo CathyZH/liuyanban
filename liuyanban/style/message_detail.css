@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+#center_main dl {
+	width:90%;
+	margin:10px auto;
+}
+#center_main dl dd {
+	margin:5px;
+	line-height:150%;
+}
+#center_main dl dd input {
+	width:70px;
+	height:20px;
+	font-size:12px;
+	cursor:pointer;
+}
+#center_main dl dd.button {
+	text-align:center;
+}

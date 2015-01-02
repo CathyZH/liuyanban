@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+#center {
+	width:auto;
+	height:600px;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+#center h2 {
+	text-indent:0;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+#center_sidebar {
+	width:300px;
+	height:500px;
+	margin:15px;
+	border:1px dashed #999;
+	float:left;
+}
+#center_sidebar dl {
+	width:250px;
+	background:red;
+	margin:15px auto;
+}
+#center_sidebar dl dt {
+	height:40px;
+	line-height:40px;
+	background:#999;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+#center_sidebar dl dd {
+	height:40px;
+	line-height:40px;
+	background:#eee;
+	font-weight:bold;
+	text-align:center;
+}
+#center_sidebar dl dd a {
+	display:block;
+	color:#333;
+	text-decoration:none;
+}
+#center_sidebar dl dd a:hover {
+	background:#ccc;
+}
+#center_main {
+	width:590px;
+	height:500px;
+	margin:15px;
+	border:1px dashed #999;
+	float:right;
+}
+#center_main dl {
+	width:500px;
+	margin:15px auto;
+	font-size:14px;
+}
+#center_main dl dd {
+	padding:10px 0;
+	border-bottom:1px dashed #999;
+}
+#center_main dl dd p textarea {
+	width:220px;
+	height:60px;
+	border:1px dashed #333;
+	background:#fff;
+	margin:5px 0 0 70px;
+}
+#center_main dl dd input.text {
+	width:220px;
+	height:19px;
+	border:1px dashed #333;
+	background:#fff;
+}
+#center_main dl dd input.yzm {
+	width:60px;
+}
+#center_main dl dd img#code {
+	position:relative;
+	top:8px;
+	cursor:pointer;
+}
+#center_main dl dd input.submit {
+	width:60px;
+	height:22px;
+	border:1px dashed #333;
+	background:#fff;
+	cursor:pointer;
+}

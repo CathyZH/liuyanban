@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+#m_topic {
+	width:auto;
+	height:500px;
+	border:2px solid #ccc;
+	font-size:12px;
+	position:relative;
+}
+#m_topic h2 {
+	text-indent:0;
+	text-align:center;
+}
+#m_topic form dl {
+	width:450px;
+	margin:10px auto;
+	position:relative;
+}
+#m_topic form dl dt {
+	text-align:center;
+	padding:10px 0;
+	font-weight:bold;
+}
+#m_topic form dl dd {
+	padding:5px 0;
+}
+#m_topic form dl dd label {
+	cursor:pointer;
+	display:inline-block;
+	height:20px;
+	padding:0 2px 0 0;
+}
+#ubb {
+	width:410px;
+	height:26px;
+	background:url(../img/bgMenubar.gif);
+	border:1px dashed #333;
+	border-bottom:1px solid #666;
+}
+#ubb img {
+	display:block;
+	float:left;
+	padding:5px 0 0 6px;
+}
+#font {
+	display:none;
+	width:125px;
+	height:40px;
+	background:#eee;
+	border:1px dashed #333;
+	padding:8px;
+	line-height:20px;
+	position:absolute;
+	top:175px;
+	left:5px;
+}
+#font strong {
+	font-weight:normal;
+	background:#fff;
+	border:1px solid #ccc;
+	cursor:default;
+}
+#color {
+	display:none;
+	width:152px;
+	height:130px;
+	font-size:12px;
+	background:#eee;
+	border:1px dashed #333;
+	padding:4px 0 0 4px;
+	position:absolute;
+	top:175px;
+	left:120px;
+}
+#color strong {
+	border:1px solid #999;
+	display:block;
+	width:12px;
+	height:12px;
+	float:left;
+	margin:4px 0 0 4px;
+}
+#color em {
+	display:block;
+	height:28px;
+	width:80%;	
+	clear:both;
+}
+#color em input {
+	margin-top:10px;
+	margin-left:4px;
+	width:136px;	
+	height:20px;
+	cursor:pointer;
+	background:#fff;
+}
+#m_topic form dl dd textarea {
+	width:400px;
+	border:1px dashed #333;
+	border-top:none;
+	background:#fff;
+	padding:5px;
+}
+#m_topic form dl dd input.text {
+	width:250px;
+	height:19px;
+	border:1px dashed #333;
+	background:#fff;
+}
+#m_topic form dl dd input.yzm {
+	width:60px;
+}
+#m_topic form dl dd input.submit {
+	width:75px;
+	height:21px;
+	border:1px dashed #333;
+	background:#fff;
+	cursor:pointer;
+	color:#333;
+}
+#m_topic form dl dd input.submit:hover {
+	background:#eee;
+}
+#code {
+	position:relative;
+	top:8px;
+	cursor:pointer;
+}
+#q a {
+	text-decoration:none;
+	color:#333;
+}

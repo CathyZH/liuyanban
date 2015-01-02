@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+#center_main table {
+	width:90%;
+	margin:10px auto;
+	text-align:center;
+	background:#ccc;
+	margin-bottom:0px;
+}
+#center_main table th,#center_main table td {
+	height:25px;
+	line-height:25px;
+	background:#fff;
+}
+#center_main table td a {
+	text-decoration:none;
+	color:#333;
+}
+#center_main table td a:hover {
+	text-decoration:underline;
+}

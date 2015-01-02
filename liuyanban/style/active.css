@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+#active {
+	width: auto;
+	height: 400px;
+	border: 2px solid #ccc;
+	font-size: 12px;
+}
+#active h2 {
+	text-indent:0;
+	text-align:center;
+	margin:0 0 20px 0;
+}
+#active p {
+	text-align: center;
+	padding: 5px;
+}
